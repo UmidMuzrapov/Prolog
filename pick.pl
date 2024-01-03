@@ -1,0 +1,1 @@
+pick(From, Positions, Picked) :- atom_chars(From, Chars), findall(Char, (member(Elem , Positions), nth0(Elem, Chars, Char)), Final), atom_chars(Picked, Final).

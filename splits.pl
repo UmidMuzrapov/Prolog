@@ -1,0 +1,1 @@
+splits(List, First/Second) :- append(First, Second, List), First \== [], Second \== [].

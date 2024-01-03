@@ -1,0 +1,1 @@
+btw(List, Symbol, Result) :- append(First, Rest, List), First\==[], First\==List, append(First, [Symbol], Middle), append(Middle, Rest, Result).
